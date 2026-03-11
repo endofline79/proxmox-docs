@@ -31,6 +31,9 @@ Initial live inventory was collected over SSH and the Proxmox API.
 - `10.10.10.0/24` is the DMZ network intended for VMs and LXCs.
 - `pbs` storage is configured but unreachable from this node at inventory time.
 - `local` directory storage is much fuller than the ZFS-backed storage pools.
+- Host service state shows a failed `zfs-import@M2-EVO1TB.service` unit.
+- `vllm-01` guest agent is working and reports both LAN and DMZ addresses.
+- `ttrss` guest agent is not currently running.
 
 ## Follow-up
 

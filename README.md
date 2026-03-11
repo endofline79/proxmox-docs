@@ -18,3 +18,5 @@ This repo is markdown-first on purpose. It is the working memory, runbook, and c
 - Prefer short factual notes over long unstructured dumps.
 - Record what changed, why it changed, and how it was verified.
 - Keep one topic per file when possible.
+- Put operational commands and step-by-step procedures in `runbooks/`.
+- Keep open problems and deferred work visible in `memories/backlog.md`.
